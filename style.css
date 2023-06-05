@@ -6,7 +6,7 @@
   }
 
   body {
-    height: 120vh;
+    height: 90vh;
     font-family: 'Hanken Grotesk', sans-serif;
     color: white;
     font-size: 18px;
@@ -137,5 +137,6 @@
 
     body {
     display: flex;
+    height: 50vh;
     }
   }

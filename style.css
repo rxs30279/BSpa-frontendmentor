@@ -1,0 +1,141 @@
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    height: 120vh;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: white;
+    font-size: 18px;
+  }
+
+  .results-container {
+    width: 375px;
+    height: 50vh;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 0 0 30px 30px;
+  }
+  
+  .results-sections {
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+  }
+  .results-sections > p:first-child {
+    color: hsl(0, 8%, 77%);
+    font-weight: 500;
+  }
+   .circle  p:first-child {
+    font-weight: 800;
+    font-size: 3.1rem;
+  } 
+  .circle  p:last-child {
+    color: hsl(0, 8%, 77%);
+  
+  } 
+.results-sections p:nth-child(3){
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+.results-sections p:nth-child(4){
+  margin-top: -20px;;
+  width:70%;
+  font-weight: 500;
+  color: hsl(0, 8%, 77%);
+  font-size: 1rem;
+}
+  .circle {
+    height: 150px;
+    width: 150px;
+    background: radial-gradient( circle at bottom,hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+    border-radius: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Summary section */
+
+
+  .summary-report {
+    background-color: white;
+    width: 375px;
+    display:flex;
+    flex-direction: column;
+    padding: 2% 25px;
+   
+  }
+
+   .summary-report p:first-child {
+    font-weight: 800;
+    color:black;
+    padding:10px;
+  }
+
+  .scores {
+    display:flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: space-evenly;
+   
+  }
+
+  .box {
+    display:flex;
+    align-items:center;
+    height: 7vh;
+    font-weight: 800;
+    color:black;
+    border-radius: 5px;
+    padding: 0 8%;
+  }
+  .box  p:nth-child(2) {
+    padding-left: 25px;
+    margin-right:auto;
+  }
+
+ 
+
+  .reaction {
+    background-color: hsl(8, 51%, 93%);
+    color:hsl(359, 73%, 65%)
+  }
+  .memory {
+    background-color: hsl(40, 52%, 96%);
+    color: hsl(40, 86%, 63%);
+  }
+  .verbal {
+    background-color:hsl(102, 59%, 96%);
+    color:hsl(102, 59%, 56%);
+  }
+  .visual {
+    background-color:hsl(241, 100%, 96%);
+    color:hsl(241, 100%, 73%);
+  }
+
+  button {
+    align-self: center;
+    font-weight: 800;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    width:100%;
+    height:6vh;
+    margin-top: 10px;
+    background-color:  hsl(224, 30%, 27%);
+  }
+
+
+  @media screen and (min-width: 600px ){
+
+    body {
+    display: flex;
+    }
+  }
